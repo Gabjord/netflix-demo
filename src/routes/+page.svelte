@@ -27,7 +27,7 @@
 			salePrice: 999,
 			category: 'Laptop',
 			style: 'bg-slate-900 text-white',
-			img: 'probook.jpg'
+			img: '/probook.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -36,7 +36,7 @@
 			salePrice: 150,
 			category: 'Audio',
 			style: 'bg-indigo-950 text-white',
-			img: 'SoundWave.jpg'
+			img: '/SoundWave.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -45,7 +45,7 @@
 			salePrice: 450,
 			category: 'Tablet',
 			style: 'bg-orange-500 text-white',
-			img: 'PixelTab.jpg'
+			img: '/PixelTab.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -54,7 +54,7 @@
 			salePrice: 720,
 			category: 'PC Parts',
 			style: 'bg-zinc-800 text-zinc-100',
-			img: 'gpu.jpg'
+			img: '/gpu.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -63,7 +63,7 @@
 			salePrice: 80,
 			category: 'Audio',
 			style: 'bg-slate-900 text-white',
-			img: 'airpod.jpg'
+			img: '/airpod.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -72,7 +72,7 @@
 			salePrice: 850,
 			category: 'Laptop',
 			style: 'bg-zinc-100 text-zinc-900',
-			img: 'swift.jpg'
+			img: '/swift.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -81,7 +81,7 @@
 			salePrice: 400,
 			category: 'Monitor',
 			style: 'bg-indigo-950 text-white',
-			img: 'UltraWide.jpg'
+			img: '/UltraWide.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -90,7 +90,7 @@
 			salePrice: 520,
 			category: 'PC Parts',
 			style: 'bg-slate-900 text-white',
-			img: 'i9.jpg'
+			img: '/i9.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -99,7 +99,7 @@
 			salePrice: 199,
 			category: 'Wearable',
 			style: 'bg-orange-500 text-white',
-			img: 'neo.jpg'
+			img: '/neo.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -108,7 +108,7 @@
 			salePrice: 950,
 			category: 'Mobile',
 			style: 'bg-zinc-900 text-zinc-100',
-			img: 'iphone17.jpg'
+			img: '/iphone17.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -117,7 +117,7 @@
 			salePrice: 1800,
 			category: 'Laptop',
 			style: 'bg-indigo-950 text-white',
-			img: 'gamerMax.jpg'
+			img: '/gamerMax.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -126,7 +126,7 @@
 			salePrice: 99,
 			category: 'Wearable',
 			style: 'bg-orange-500 text-white',
-			img: 'pulsefit.jpg'
+			img: '/pulsefit.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -135,7 +135,7 @@
 			salePrice: 160,
 			category: 'PC Parts',
 			style: 'bg-zinc-800 text-zinc-100',
-			img: 'ssd.jpg'
+			img: '/ssd.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -144,7 +144,7 @@
 			salePrice: 1200,
 			category: 'Monitor',
 			style: 'bg-slate-900 text-white',
-			img: '4kMonitor.jpg'
+			img: '/4kMonitor.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -153,7 +153,7 @@
 			salePrice: 120,
 			category: 'PC Parts',
 			style: 'bg-zinc-100 text-zinc-900',
-			img: 'keyboard.jpg'
+			img: '/keyboard.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -162,7 +162,7 @@
 			salePrice: 350,
 			category: 'Camera',
 			style: 'bg-indigo-950 text-white',
-			img: 'camera.jpg'
+			img: '/camera.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -171,7 +171,7 @@
 			salePrice: 45,
 			category: 'PC Parts',
 			style: 'bg-orange-500 text-white',
-			img: 'mouse.jpg'
+			img: '/mouse.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -180,7 +180,7 @@
 			salePrice: 180,
 			category: 'Tablet',
 			style: 'bg-zinc-800 text-zinc-100',
-			img: 'cloudPad.jpg'
+			img: '/cloudPad.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -189,7 +189,7 @@
 			salePrice: 750,
 			category: 'Gadgets',
 			style: 'bg-slate-900 text-white',
-			img: 'drone.jpg'
+			img: '/drone.jpg'
 		},
 		{
 			id: crypto.randomUUID(),
@@ -198,7 +198,7 @@
 			salePrice: 280,
 			category: 'Audio',
 			style: 'bg-indigo-950 text-white',
-			img: 'sonicBar.jpg'
+			img: '/sonicBar.jpg'
 		}
 	]);
 
