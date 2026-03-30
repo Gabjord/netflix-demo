@@ -232,10 +232,10 @@
 
 <main class="relative min-h-screen overflow-hidden bg-gray-50 pb-3 font-sans text-gray-900">
 	<header
-		class=" sticky top-0 z-10 flex h-20 items-center justify-between gap-2 bg-white px-3 md:px-10 lg:justify-evenly"
+		class=" fixed z-10 grid h-20 w-full grid-cols-2 place-items-center gap-2 bg-indigo-950 text-white lg:grid-cols-3"
 	>
-		<h1 class="text-2xl font-extrabold text-nowrap text-orange-600 md:flex-1">ELECTRO-SALE</h1>
-		<div class=" hidden flex-3 md:block">
+		<h1 class="text-2xl font-extrabold text-nowrap text-orange-500">ELECTRO-SALE</h1>
+		<div class=" hidden w-full md:block">
 			<input
 				type="text"
 				class="mx-auto block w-[40%] rounded-lg bg-orange-400 py-2 text-center text-white placeholder-gray-100 outline-blue-400"
@@ -246,7 +246,7 @@
 
 		<!-- menu -->
 		{#if openMenu === false}
-			<div class="block cursor-pointer md:hidden" transition:slide>
+			<div class="block cursor-pointer justify-self-end px-5 md:hidden">
 				<Icon
 					onclick={() => (openMenu = !openMenu)}
 					icon="lucide:menu"
@@ -256,10 +256,7 @@
 				/>
 			</div>
 		{:else}
-			<div
-				class="flex cursor-pointer gap-3"
-				transition:slide={{ duration: 600, easing: quintInOut }}
-			>
+			<div class="flex cursor-pointer gap-3">
 				<nav class=" flex list-none gap-4 text-xl font-semibold">
 					<li class="hover:text-orange-500">Home</li>
 					<li class="hover:text-orange-500">About</li>
@@ -278,14 +275,14 @@
 				onclick={() => (cartModal = !cartModal)}
 				class="cursor-pointer text-2xl font-bold">🛒 Cart:</button
 			>
-			<p class=" flex-1 rounded-full bg-orange-400 px-1.5 py-0.5 text-center text-white">
+			<p class=" w-fit rounded-full bg-orange-400 px-1.5 py-0.5 text-center text-white">
 				{cartCount}
 			</p>
 		</div>
 	</header>
 	<!-- hero section -->
 	<section
-		class=" flex h-64 w-full flex-col items-center justify-center space-y-2 bg-indigo-950 bg-[url('discount.jpg')] bg-cover bg-center bg-no-repeat text-center text-balance text-white"
+		class=" flex h-64 w-full flex-col items-center justify-center space-y-2 bg-indigo-950 bg-[url('/discount.jpg')] bg-cover bg-center bg-no-repeat text-center text-balance text-white"
 	>
 		<h1 class="font-serif text-3xl font-extrabold text-white/90 md:text-6xl md:text-orange-950">
 			Flash Sales Events
@@ -301,7 +298,7 @@
 	>
 		{#each categories as cat}
 			<button
-				class={`h-fit cursor-pointer py-2 rounded-full px-4 text-lg font-medium shadow-xs shadow-gray-500 ${selectedCat === cat ? 'bg-orange-500 text-white' : 'text-gray-950'}`}
+				class={`h-fit cursor-pointer rounded-full px-4 py-2 text-lg font-medium shadow-xs shadow-gray-500 ${selectedCat === cat ? 'bg-orange-500 text-white' : 'text-gray-950'}`}
 				onclick={() => (selectedCat = cat)}
 			>
 				{cat}
