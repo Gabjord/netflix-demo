@@ -301,7 +301,7 @@
 	>
 		{#each categories as cat}
 			<button
-				class={`  h-fit  cursor-pointer  py-2 rounded-full px-4 text-lg font-medium shadow-xs shadow-gray-500 ${selectedCat === cat ? 'bg-orange-500 text-white' : 'text-gray-950'}`}
+				class={`h-fit cursor-pointer py-2 rounded-full px-4 text-lg font-medium shadow-xs shadow-gray-500 ${selectedCat === cat ? 'bg-orange-500 text-white' : 'text-gray-950'}`}
 				onclick={() => (selectedCat = cat)}
 			>
 				{cat}
